@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const Hello = (
   <div>
     <h1>Hello React...</h1>
