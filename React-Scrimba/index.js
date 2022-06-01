@@ -1,1 +1,11 @@
-ReactDOM.render(<h1>Hello react</h1>, document.getElementById("root"));
+const Hello = (
+  <div>
+    <h1>Hello React...</h1>
+    <ul>
+      <li>react is declarative</li>
+      <li>react is composable</li>
+    </ul>
+  </div>
+);
+
+ReactDOM.render(Hello, document.getElementById("root"));
