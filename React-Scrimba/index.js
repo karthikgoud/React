@@ -1,14 +1,6 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
 
-const Hello = (
-  <div>
-    <h1>Hello React...</h1>
-    <ul>
-      <li> </li>
-      <li>react is composable</li>
-    </ul>
-  </div>
-);
-
-ReactDOM.render(Hello, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
