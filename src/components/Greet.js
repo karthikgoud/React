@@ -5,7 +5,7 @@ import React from "react";
 //   return <h1>Hello {props.name}</h1>;
 // }
 
-// using arrow function
+using arrow function
 const Greet = (props) => {
   return (
     <div>
